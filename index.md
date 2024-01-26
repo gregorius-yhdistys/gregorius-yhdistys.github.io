@@ -21,7 +21,7 @@ title: ''
   <div class="py-2">
     <p class="text-justify py-2 font-bold">
       Hyvä vierailija, Gregorius-yhdistyksen uusi verkkosivusto on parhaillaan rakenteilla.
-      Sillä välin voit vierailla vanhalla verkkosivustolla tästä
+      Sillä välin voitte vierailla vanhalla verkkosivustolla tästä
       <a href="https://gregoriusyhdistys.wordpress.com/">linkistä</a>.
     </p>
     <p class="text-justify py-2 italic">
