@@ -55,34 +55,4 @@ title: ''
       </a>
     </div>
   </div>
-  <div class="py-2">
-    <div>
-      <span class="font-bold">Liity WhatsApp-ryhmäämme</span>
-      <br />
-      <span class="italic">Join our WhatsApp group</span>
-    </div>
-    <div class="py-4 flex flex-row justify-center">
-      <a href="https://chat.whatsapp.com/C9AOBq2df8J2glq18uwyky" target="_blank">
-        <img
-          class="w-10 inline-block mx-2"
-          src="assets/images/icons/whatsapp.svg"
-          alt="WhatsApp"
-          draggable="false"
-        />
-      </a>
-    </div>
-    <div>
-      <span class="font-bold">tai skannaa alla oleva QR-koodi</span>
-      <br />
-      <span class="italic">or scan the QR code below</span>
-    </div>
-    <div>
-      <img
-        class="w-36 py-6 mx-auto"
-        src="assets/images/qr/whatsapp-qrcode.png"
-        alt="WhatsApp QR-koodi"
-        draggable="false"
-      />
-    </div>
-  </div>
 </div>
