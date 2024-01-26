@@ -9,8 +9,12 @@ module.exports = {
   ],
   theme: {
     theme: {
-      extend: {},
+      extend: {
+        fontFamily: {
+          reforma: ['Reforma2018Gris', 'sans-serif'],
+        },
+      },
     },
   },
-  plugins: []
-}
+  plugins: [],
+};

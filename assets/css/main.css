@@ -4,3 +4,74 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Define base styles */
+@layer base {
+  /* === Setting up typefaces === */
+
+  /* Reforma 2018 Gris */
+
+  @font-face {
+    font-family: Reforma2018Gris;
+    src: url('/assets/fonts/Reforma2018-Gris.woff2') format('woff2'),
+      url('/assets/fonts/Reforma2018-Gris.ttf') format('truetype');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: Reforma2018Gris;
+    src: url('/assets/fonts/Reforma2018-GrisItalica.woff2') format('woff2'),
+      url('/assets/fonts/Reforma2018-GrisItalica.woff') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: Reforma2018Gris;
+    src: url('/assets/fonts/Reforma2018-Negra.woff2') format('woff2'),
+      url('/assets/fonts/Reforma2018-Negra.ttf') format('truetype');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: Reforma2018Gris;
+    src: url('/assets/fonts/Reforma2018-NegraItalica.woff2') format('woff2'),
+      url('/assets/fonts/Reforma2018-NegraItalica.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  body {
+    font-family: 'Reforma2018Gris';
+    font-size: 16px;
+    line-height: normal;
+    /* Force normal lining numbers instead of old style */
+    font-feature-settings: 'lnum';
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.32px;
+    line-height: normal;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.24px;
+    line-height: normal;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.18px;
+    text-transform: uppercase;
+    line-height: normal;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}

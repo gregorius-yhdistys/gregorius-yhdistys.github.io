@@ -1,6 +1,12 @@
-url: ''
+title: Societas Sancti Gregorii Magni
+domain: gregorius.fi
+url: https://gregorius.fi
 baseurl: ''
-title: 'Jekyllwind'
+description: >- # this means to ignore newlines until "plugins"
+  Gregorius-yhdistys (Societas Sancti Gregorii Magni) on Helsingin katolisessa hiippakunnassa
+  vuonna 2007 toimintansa aloittanut yhdistys, jonka tarkoituksena on ”vaalia katolisen Kirkon
+  rikasta liturgista perinnettä ja edistää sen käyttöä Kirkon sakramentaalisessa elämässä sekä
+  osana suomalaista kansanhurskautta”.
 
 plugins:
   - jekyll-postcss
