@@ -1,6 +1,7 @@
 ---
 layout: home
 title: ''
+lang: en
 ---
 
 <main class="bg-home-main bg-cover bg-center bg-no-repeat min-h-screen">

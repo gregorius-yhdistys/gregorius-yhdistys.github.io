@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include navigation.html %}
+    <div class="mb-8">{{ content }}</div>
+    {% include footer.html %}
+    <script type="text/javascript">
+      document.addEventListener('scroll', function () {
+        if (window.scrollY > 0) {
+          document
+            .querySelector('nav')
+            .classList.add('shadow-lg', '!text-black', 'bg-white');
+        } else {
+          document
+            .querySelector('nav')
+            .classList.remove('shadow-lg', '!text-black', 'bg-white');
+        }
+      });
+    </script>
+  </body>
+</html>

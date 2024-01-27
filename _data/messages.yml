@@ -1,0 +1,28 @@
+locales:
+  # English translation
+  # -------------------
+  en: &DEFAULT_EN
+    nav_news: "News"
+    nav_liturgy: "Liturgy"
+    nav_documents: "Documents"
+    nav_gallery: "Gallery"
+    nav_contact: "Contact us"
+    copyright: "Society of St. Gregory the Great. All rights reserved."
+
+  en_US:
+    <<: *DEFAULT_EN     # use English translation for en_US
+  en_UK:
+    <<: *DEFAULT_EN     # use English translation for en_UK
+
+  # Finnish translation
+  # -------------------
+  fi: &DEFAULT_FI
+    <<: *DEFAULT_EN     # load English values as default
+    nav_news: "Uutiset"
+    nav_liturgy: "Liturgia"
+    nav_documents: "Asiakirjat"
+    nav_gallery: "Galleria"
+    nav_contact: "Yhteystiedot"
+    copyright: "Gregorius-yhdistys. Kaikki oikeudet pidätetään."
+  fi_FI:
+    <<: *DEFAULT_FI     # use Finnish translation for fi_FI

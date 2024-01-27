@@ -1,0 +1,45 @@
+<nav
+  class="flex flex-row px-8 py-3 transition-all duration-500 items-center justify-between fixed top-0 w-full z-50 {% if page.title == '' %}text-white{% else %}shadow-lg bg-white{% endif %}"
+>
+  <a
+    href="{% if navlang == 'en' %}/en{% else %}/{% endif %}"
+    class="flex flex-row items-center select-none"
+  >
+    <img
+      src="/assets/images/logo/SSGM_160.png"
+      alt="Gregorius-yhdistyksen logo"
+      draggable="false"
+      class="w-20 h-20 min-w-20 min-h-20"
+    />
+    <div class="hidden md:block">
+      <div class="uppercase text-xl px-4 font-bold">Gregorius-yhdistys</div>
+      <div class="uppercase text-lg px-4 font-bold">
+        Society of St. Gregory the Great
+      </div>
+    </div>
+  </a>
+  <div class="text-lg hidden lg:block">
+    <a class="mx-3 hover:underline hover:underline-offset-2" href="/uutiset"
+      >{{ site.data.messages.locales[navlang].nav_news }}</a
+    >
+    <a class="mx-3 hover:underline hover:underline-offset-2" href="/liturgia"
+      >{{ site.data.messages.locales[navlang].nav_liturgy }}</a
+    >
+    <a class="mx-3 hover:underline hover:underline-offset-2" href="/asiakirjat"
+      >{{ site.data.messages.locales[navlang].nav_documents }}</a
+    >
+    <a class="mx-3 hover:underline hover:underline-offset-2" href="/galleria"
+      >{{ site.data.messages.locales[navlang].nav_gallery }}</a
+    >
+    <a
+      class="mx-3 hover:underline hover:underline-offset-2"
+      href="/yhteystiedot"
+      >{{ site.data.messages.locales[navlang].nav_contact }}</a
+    >
+    <a
+      class="mx-3 hover:underline hover:underline-offset-2"
+      href="{% if navlang == 'en' %}/{% else %}/en{% endif %}"
+      >{% if navlang == 'en' %}Suomeksi{% else %}English{% endif %}</a
+    >
+  </div>
+</nav>

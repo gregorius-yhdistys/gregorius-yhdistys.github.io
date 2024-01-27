@@ -1,6 +1,7 @@
 title: Societas Sancti Gregorii Magni
 domain: gregorius.fi
 url: https://gregorius.fi
+locale: fi
 baseurl: ''
 description: >- # this means to ignore newlines until "plugins"
   Gregorius-yhdistys (Societas Sancti Gregorii Magni) on Helsingin katolisessa hiippakunnassa
