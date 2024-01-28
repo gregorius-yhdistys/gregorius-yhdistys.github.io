@@ -20,26 +20,26 @@
   </a>
   <div class="text-lg hidden lg:block">
     <a class="mx-3 hover:underline hover:underline-offset-2" href="/uutiset"
-      >{{ site.data.messages.locales[navlang].nav_news }}</a
+      >{{ site.data.strings.nav_news }}</a
     >
     <a class="mx-3 hover:underline hover:underline-offset-2" href="/liturgia"
-      >{{ site.data.messages.locales[navlang].nav_liturgy }}</a
+      >{{ site.data.strings.nav_liturgy }}</a
     >
     <a class="mx-3 hover:underline hover:underline-offset-2" href="/asiakirjat"
-      >{{ site.data.messages.locales[navlang].nav_documents }}</a
+      >{{ site.data.strings.nav_documents }}</a
     >
     <a class="mx-3 hover:underline hover:underline-offset-2" href="/galleria"
-      >{{ site.data.messages.locales[navlang].nav_gallery }}</a
+      >{{ site.data.strings.nav_gallery }}</a
     >
     <a
       class="mx-3 hover:underline hover:underline-offset-2"
       href="/yhteystiedot"
-      >{{ site.data.messages.locales[navlang].nav_contact }}</a
+      >{{ site.data.strings.nav_contact }}</a
     >
     <a
       class="mx-3 hover:underline hover:underline-offset-2"
-      href="{% if navlang == 'en' %}/{% else %}/en{% endif %}"
-      >{% if navlang == 'en' %}Suomeksi{% else %}English{% endif %}</a
+      href="{% if site.active_lang == 'en' %}{{ site.url }}{% else %}/en{% endif %}"
+      >{% if site.active_lang == 'en' %}Suomeksi{% else %}English{% endif %}</a
     >
   </div>
 </nav>
