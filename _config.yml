@@ -1,7 +1,6 @@
 title: Societas Sancti Gregorii Magni
 domain: gregorius.fi
 url: https://gregorius.fi
-locale: fi
 baseurl: ''
 description: >- # this means to ignore newlines until "plugins"
   Gregorius-yhdistys (Societas Sancti Gregorii Magni) on Helsingin katolisessa hiippakunnassa
@@ -11,6 +10,7 @@ description: >- # this means to ignore newlines until "plugins"
 
 plugins:
   - jekyll-postcss
+  - jekyll-polyglot
 
 postcss:
   cache: false
@@ -20,3 +20,8 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - yarn.lock
+
+languages: ['fi', 'en']
+default_lang: 'fi'
+exclude_from_localization: ['assets/*']
+parallel_localization: true
