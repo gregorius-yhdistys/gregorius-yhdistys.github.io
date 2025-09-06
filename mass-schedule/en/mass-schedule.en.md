@@ -16,22 +16,9 @@ page_id: mass-schedule
     href='https://chat.whatsapp.com/C9AOBq2df8J2glq18uwyky'
 %})
 
-### St. Henry's Cathedral, Helsinki
+### St. Mary's Catholic Parish, Helsinki
 
-**Address:** Pyhän Henrikin aukio 1 A, 00140 Helsinki
-({% include external-link.html
-    text='View on Google Maps'
-    href='https://maps.app.goo.gl/ogTQjM7CPhgTXWMC7'
-%})\
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d458.71386727949596!2d24.900370748655927!3d60.191657403450876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a1e63b81bb7%3A0x38a93a6492e62ab7!2sSt.%20Mary%20Catholic%20Parish!5e0!3m2!1sen!2sfi!4v1757174435367!5m2!1sen!2sfi" width="600" height="450" style="border:0; padding-top: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 **Date:** First Sundays of the month\
-**Time:** 13.00
-
-### St. Olaf's Parish, Jyväskylä
-
-**Address:** Yrjönkatu 36, 40100 Jyväskylä
-({% include external-link.html
-    text='View on Google Maps'
-    href='https://maps.app.goo.gl/g4oQxKTtiBffjtaB8'
-%})\
-**Date:** Tuesdays every week\
-**Time:** 18.00
+**Time:** 12:45
