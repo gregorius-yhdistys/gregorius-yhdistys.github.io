@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "bundle exec jekyll build && ./fix-english-homepage.sh",
+    "serve": "bundle exec jekyll serve"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "cssnano": "^5.1.8",

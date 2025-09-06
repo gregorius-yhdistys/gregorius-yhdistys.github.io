@@ -9,6 +9,17 @@
 @layer base {
   /* === Setting up typefaces === */
 
+  /* Define the "system" font family */
+
+  @font-face {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 300;
+    src: local('.SFNSText-Light'), local('.HelveticaNeueDeskInterface-Light'),
+      local('.LucidaGrandeUI'), local('Ubuntu Light'), local('Segoe UI Light'),
+      local('Roboto-Light'), local('DroidSans'), local('Tahoma');
+  }
+
   /* Reforma 2018 Gris */
 
   @font-face {
@@ -53,14 +64,14 @@
     font-size: 32px;
     font-weight: 600;
     letter-spacing: 0.32px;
-    line-height: normal;
+    line-height: 40px;
   }
 
   h2 {
     font-size: 24px;
     font-weight: 600;
     letter-spacing: 0.24px;
-    line-height: normal;
+    line-height: 36px;
   }
 
   h3 {
@@ -68,10 +79,322 @@
     font-weight: 600;
     letter-spacing: 0.18px;
     text-transform: uppercase;
-    line-height: normal;
+    line-height: 36px;
+  }
+}
+
+.page {
+  @apply text-base leading-7 hyphens-auto;
+
+  h1 {
+    @apply text-4xl leading-10 text-brand font-bold;
+  }
+
+  h2 {
+    @apply text-3xl leading-9;
+  }
+
+  h3 {
+    @apply text-2xl leading-9;
+  }
+
+  h4 {
+    @apply text-xl leading-9;
+  }
+
+  h5 {
+    @apply text-lg leading-9;
+  }
+
+  h6 {
+    @apply text-base leading-7;
+  }
+
+  p {
+    @apply py-4;
+
+    .footnote {
+      @apply font-bold;
+    }
   }
 
   a {
-    text-decoration: underline;
+    @apply text-brand hover:underline;
   }
+
+  ul {
+    li {
+      @apply list-disc;
+    }
+  }
+
+  ol {
+    list-style: decimal;
+    li {
+      margin-left: 3em;
+      padding-left: 1em;
+    }
+  }
+}
+
+.document {
+  h2 {
+    @apply text-center;
+  }
+
+  h3 {
+    @apply text-center;
+  }
+
+  h4 {
+    @apply text-center;
+  }
+
+  h5 {
+    @apply text-center;
+  }
+
+  h6 {
+    @apply text-center;
+  }
+
+  p {
+    @apply py-4 text-justify;
+
+    :first-child {
+      @apply first-letter:float-left first-letter:text-7xl first-letter:pr-4 first-letter:font-black first-letter:text-red-500;
+    }
+
+    .footnote {
+      @apply font-bold;
+    }
+  }
+}
+
+/* Mobile Side Menu Styles */
+#mobile-side-menu {
+  overflow-y: auto;
+  box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#mobile-side-menu.show {
+  transform: translateX(0);
+}
+
+/* Right-side menu specific styling */
+#mobile-side-menu {
+  border-left: 1px solid #e5e7eb;
+}
+
+#mobile-menu-overlay.show {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Debug: Make overlay more visible when shown */
+#mobile-menu-overlay.show {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Prevent body scroll when menu is open */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Mobile menu button animation */
+#mobile-menu-button {
+  transition: all 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#mobile-menu-button:hover {
+  opacity: 0.7;
+}
+
+#mobile-menu-button i {
+  transition: transform 0.3s ease;
+}
+
+#mobile-menu-button.open i {
+  transform: rotate(90deg);
+}
+
+/* Close button styling */
+#mobile-menu-close {
+  transition: all 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#mobile-menu-close:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  transform: scale(1.1);
+}
+
+#mobile-menu-close:active {
+  transform: scale(0.95);
+}
+
+/* Navigation active state styling - white text on home page */
+nav.text-white span.relative.text-brand {
+  color: white !important;
+}
+nav.text-white span.relative::after {
+  background-color: white !important;
+}
+
+/* Navigation active state styling - brand text on other pages */
+nav:not(.text-white) span.relative::after {
+  background-color: #024f94 !important;
+}
+
+/* Navigation hover state styling - white text on home page */
+nav.text-white a:hover::after {
+  background-color: white !important;
+}
+
+/* Navigation hover state styling - brand text on other pages */
+nav:not(.text-white) a:hover::after {
+  background-color: #024f94 !important;
+}
+
+/* Force brand color for all navigation items on non-homepage pages */
+nav:not(.text-white) a {
+  color: #024f94 !important;
+}
+
+/* Force brand color for all sidebar navigation items */
+#mobile-side-menu a {
+  color: #024f94 !important;
+}
+
+/* Sidebar navigation hover state */
+#mobile-side-menu a:hover::after {
+  background-color: #024f94 !important;
+}
+
+/* Mobile sidebar navigation positioning */
+#mobile-side-menu .flex-1 {
+  flex: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#mobile-side-menu nav {
+  margin-top: 0;
+}
+
+/* Society page specific styling */
+
+.page[data-page-id="the-society"] blockquote {
+  @apply bg-gradient-to-r from-brand/10 to-brand/5 border-l-4 border-brand p-6 rounded-lg text-lg leading-relaxed mb-8;
+}
+
+.page[data-page-id="the-society"] h1 {
+  @apply text-4xl font-bold text-brand mb-2;
+}
+
+.page[data-page-id="the-society"] h2 {
+  @apply text-2xl font-semibold text-brand mt-8 mb-4 border-b border-gray-200 pb-2;
+}
+
+.page[data-page-id="the-society"] h3 {
+  @apply text-xl font-semibold text-brand mt-6 mb-3 flex items-center;
+}
+
+.page[data-page-id="the-society"] h3::before {
+  content: counter(section-counter);
+  counter-increment: section-counter;
+  @apply bg-brand text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 flex-shrink-0;
+}
+
+.page[data-page-id="the-society"] {
+  counter-reset: section-counter;
+}
+
+.page[data-page-id="the-society"] ul {
+  @apply space-y-2;
+}
+
+.page[data-page-id="the-society"] li {
+  @apply text-black;
+}
+
+.page[data-page-id="the-society"] strong {
+  @apply text-brand font-semibold;
+}
+
+.page[data-page-id="the-society"] em {
+  @apply text-gray-600 italic;
+}
+
+.page[data-page-id="the-society"] a {
+  @apply text-brand hover:underline;
+}
+
+.page[data-page-id="the-society"] hr {
+  @apply my-8 border-gray-300;
+}
+
+/* Slideshow styles */
+.slideshow-container {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.slideshow-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.slide {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1 !important;
+}
+
+.slideshow-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+
+/* Ensure footer is visible above slideshow */
+footer {
+  z-index: 50 !important;
+  position: fixed !important;
+}
+
+/* Fix copyright symbol baseline alignment */
+footer .copyright-symbol {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  vertical-align: baseline;
+  font-size: inherit;
+  line-height: inherit;
+  display: inline;
 }
