@@ -1,12 +1,12 @@
 ---
-title: Contact us
+title: Contact Us
 layout: page
 permalink: /contact
 lang: en
 page_id: contact
 ---
 
-# Contact us
+# Contact Us
 
 ---
 

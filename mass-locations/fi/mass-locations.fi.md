@@ -1,12 +1,12 @@
 ---
-title: Messupaikat
+title: Messun paikat
 layout: page
-permalink: /messupaikat
+permalink: /messun-paikat
 lang: fi
 page_id: mass-locations
 ---
 
-# Messupaikat
+# Messun paikat
 
 ---
 

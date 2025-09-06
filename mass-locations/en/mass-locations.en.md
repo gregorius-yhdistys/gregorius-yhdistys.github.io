@@ -1,12 +1,12 @@
 ---
-title: Mass locations
+title: Mass Locations
 layout: page
 permalink: /mass-locations
 lang: en
 page_id: mass-locations
 ---
 
-# Mass locations
+# Mass Locations
 
 ---
 
