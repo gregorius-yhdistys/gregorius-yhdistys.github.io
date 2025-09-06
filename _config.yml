@@ -9,17 +9,15 @@ description:
   en:  Gregorius-yhdistys (Societas Sancti Gregorii Magni) is an association that started operating in the Catholic Diocese of Helsinki in 2007, the purpose of which is to "cherish the rich liturgical tradition of the Catholic Church and promote its use in the sacramental life of the Church and as part of Finnish folk piety".
 
 plugins:
-  - jekyll-postcss
   - jekyll-polyglot
   - jekyll-redirect-from
-
-postcss:
-  cache: false
 
 exclude:
   - package.json
   - postcss.config.js
   - tailwind.config.js
+  - assets/css/main-clean.css
+  - assets/css/main-compiled.css
   - yarn.lock
 
 languages: ['fi', 'en']
