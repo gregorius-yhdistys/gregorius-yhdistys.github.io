@@ -1,15 +1,33 @@
+---
+layout: compress
+---
+
+{% assign content = content | split: '<pre' %}
+{% for parts in content %}
+  {% assign part = parts | split: '</pre>' %}
+  {% assign c = part.first %}
+  {% assign t = part.last %}
+  {% if site.active_lang == 'fi' %}
+    {% assign t = t | replace: '“', '”' %}
+  {% endif %}
+  {% if part.size == 2 %}
+    {% capture output %}{{ output }}<pre{{ c }}</pre>{% endcapture %}
+  {% endif %}
+  {% capture output %}{{ output }}{{ t }}{% endcapture %}
+{% endfor %}
 <!DOCTYPE html>
-<html>
+<html lang="{{ site.active_lang }}">
   {% include head.html %}
   <body>
     {% include navigation.html %}
     {% if page.title != '404' %}
-      <div class="container mx-auto mt-24 mb-8 py-4">
-        {{ content }}
-      </div>
+    <div class="page container mx-auto mt-24 mb-8 p-4"{% if page.page_id %} data-page-id="{{ page.page_id }}"{% endif %}>
+      {{ output }}
+    </div>
     {% else %}
-      {{ content }}
+    {{ output }}
     {% endif %}
     {% include footer.html %}
+    {% include scroll-header.html %}
   </body>
 </html>

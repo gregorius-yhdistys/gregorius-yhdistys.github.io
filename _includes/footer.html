@@ -1,5 +1,6 @@
-<footer class="text-center text-xs py-2 bg-slate-700 text-white fixed w-full bottom-0">
+{% assign year = site.time | date: '%Y' %}
+<footer class="text-center text-xs py-2 bg-brand text-white fixed w-full bottom-0">
   <div>
-    &copy; {{ site.time | date: '%Y' }} {{ site.data.messages.locales[navlang].copyright }}
+    {{ site.data.strings.copyright | replace: "©", "<span class='copyright-symbol'>©</span>" | replace: "$year", year }}
   </div>
 </footer>

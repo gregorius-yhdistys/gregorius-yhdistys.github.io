@@ -9,14 +9,20 @@ module.exports = {
     './*.md',
     './*.html',
     './404.md',
+    './contact/**/*.md',
+    './programmes/**/*.md',
+    './mass-locations/**/*.md',
+    './mass-schedule/**/*.md',
+    './the-society/**/*.md',
   ],
   theme: {
     extend: {
       fontFamily: {
         reforma: ['Reforma2018Gris', 'sans-serif'],
+        system: ['system-ui', 'sans-serif'],
       },
-      backgroundImage: {
-        'home-main': `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/media/index-bg.jpg')`,
+      colors: {
+        brand: '#024f94',
       },
     },
   },
