@@ -87,7 +87,7 @@
       />
     </a>
     {% else %}
-    <a href="/{{ lang }}{{ page.url }}" class="uppercase" title="{% if lang == 'en' %}English{% elsif lang == 'fi' %}Suomeksi{% else %}{{ lang | upcase }}{% endif %}">
+    <a href="{% if lang == 'fi' and page.url contains '/en/' %}/{% elsif lang == 'en' and page.url == '/' %}/en/{% else %}/{{ lang }}{{ page.url }}{% endif %}" class="uppercase" title="{% if lang == 'en' %}English{% elsif lang == 'fi' %}Suomeksi{% else %}{{ lang | upcase }}{% endif %}">
       <img
         class="w-10 mx-4 border border-brand rounded-full"
         src="/assets/images/icons/flags/{{ lang }}.svg"
@@ -165,7 +165,7 @@
             <span>{% if lang == 'en' %}English{% elsif lang == 'fi' %}Suomeksi{% else %}{{ lang | upcase }}{% endif %}</span>
           </a>
           {% else %}
-          <a href="/{{ lang }}{{ page.url }}" class="flex items-center space-x-2 text-sm text-gray-600 hover:text-brand">
+          <a href="{% if lang == 'fi' and page.url contains '/en/' %}/{% elsif lang == 'en' and page.url == '/' %}/en/{% else %}/{{ lang }}{{ page.url }}{% endif %}" class="flex items-center space-x-2 text-sm text-gray-600 hover:text-brand">
             <img
               class="w-6 border border-brand rounded-full"
               src="/assets/images/icons/flags/{{ lang }}.svg"

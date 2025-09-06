@@ -1,8 +1,8 @@
 ---
 layout: home
 title: ''
-lang: fi
-permalink: /
+lang: en
+permalink: /en/
 ---
 
 <main class="bg-home-main bg-cover bg-center bg-no-repeat bg-fixed min-h-screen flex items-center justify-center">
@@ -10,19 +10,19 @@ permalink: /
     <div class="max-w-4xl mx-auto">
       <div class="bg-black bg-opacity-30 backdrop-blur-sm rounded-lg p-8 mb-8">
         <p class="text-lg md:text-xl leading-relaxed mb-6">
-          Omistautumme katolisen kirkon rikkaan liturgisen perinteen vaalimiseen ja edistämiseen. 
-          Juhlimme perinteistä latinalaista messua ja gregoriaanista kirkkomusiikkia uskomme olennaisina osina.
+          Dedicated to preserving and promoting the rich liturgical tradition of the Catholic Church, 
+          we celebrate the Traditional Latin Mass and Gregorian chant as integral parts of our faith.
         </p>
         <p class="text-base md:text-lg leading-relaxed">
-          Liity mukaan kokeilemaan roomalaisen riituksen erityismuodon kauneutta ja kunnioitusta, 
-          vahvistaen yhteyttä vuosisatojen katoliseen perinteeseen ja hengellisyyteen.
+          Join us in experiencing the beauty and reverence of the Extraordinary Form of the Roman Rite, 
+          fostering a deeper connection with centuries of Catholic tradition and spirituality.
         </p>
       </div>
       
       <div class="flex flex-col gap-4 justify-center items-center">
-        <a href="/ohjelmat" class="bg-brand hover:bg-brand/90 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-2 w-full max-w-md justify-center">
+        <a href="/programmes" class="bg-brand hover:bg-brand/90 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-2 w-full max-w-md justify-center">
           <i class="fas fa-calendar-alt"></i>
-          Ohjelmat
+          View Programmes
         </a>
         
         <div class="flex gap-4 w-full max-w-md">
