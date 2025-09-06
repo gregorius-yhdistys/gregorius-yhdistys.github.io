@@ -1,6 +1,8 @@
 {
   "scripts": {
     "build": "bundle exec jekyll build && ./fix-english-homepage.sh",
+    "build:css": "tailwindcss -i ./assets/css/main-clean.css -o ./assets/css/main-compiled.css --minify",
+    "build:production": "npm run build:css && JEKYLL_ENV=production bundle exec jekyll build && ./fix-english-homepage.sh",
     "serve": "bundle exec jekyll serve"
   },
   "devDependencies": {
