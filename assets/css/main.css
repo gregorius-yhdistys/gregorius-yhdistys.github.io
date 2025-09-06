@@ -237,6 +237,55 @@ body.menu-open {
   transform: scale(0.95);
 }
 
+/* Navigation active state styling - white text on home page */
+nav.text-white span.relative.text-brand {
+  color: white !important;
+}
+nav.text-white span.relative::after {
+  background-color: white !important;
+}
+
+/* Navigation active state styling - brand text on other pages */
+nav:not(.text-white) span.relative::after {
+  background-color: #024f94 !important;
+}
+
+/* Navigation hover state styling - white text on home page */
+nav.text-white a:hover::after {
+  background-color: white !important;
+}
+
+/* Navigation hover state styling - brand text on other pages */
+nav:not(.text-white) a:hover::after {
+  background-color: #024f94 !important;
+}
+
+/* Force brand color for all navigation items on non-homepage pages */
+nav:not(.text-white) a {
+  color: #024f94 !important;
+}
+
+/* Force brand color for all sidebar navigation items */
+#mobile-side-menu a {
+  color: #024f94 !important;
+}
+
+/* Sidebar navigation hover state */
+#mobile-side-menu a:hover::after {
+  background-color: #024f94 !important;
+}
+
+/* Mobile sidebar navigation positioning */
+#mobile-side-menu .flex-1 {
+  flex: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#mobile-side-menu nav {
+  margin-top: 0;
+}
+
 /* Society page specific styling */
 
 .page[data-page-id="the-society"] blockquote {
