@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="400"
+   height="400"
+   viewBox="0 0 400 400"
+   sodipodi:docname="united-kingdom-flag-round.eps"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18">
+      <path
+         d="M 3000,1500 C 3000,671.57 2328.43,0 1500,0 671.574,0 0,671.57 0,1500 c 0,828.43 671.574,1500 1500,1500 828.43,0 1500,-671.57 1500,-1500 z"
+         id="path16" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="ink_ext_XXXXXX"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,400)">
+    <g
+       id="g10"
+       transform="scale(0.1)">
+      <g
+         id="g12">
+        <g
+           id="g14"
+           clip-path="url(#clipPath18)">
+          <path
+             d="M 4496.86,0.339844 H -1499.99 V 3000 H 4496.86 V 0.339844"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path20" />
+          <path
+             d="M 1198.56,1201.11 V 0.339844 h 599.75 V 1201.11 h 2698.56 v 599.68 H 1798.31 V 3000 H 1198.56 V 1800.79 H -1500 v -599.68 h 2698.56"
+             style="fill:#d11d2c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path22" />
+          <path
+             d="M 1998.3,2029.01 V 3000 h 1941.6 z"
+             style="fill:#273375;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path24" />
+          <path
+             d="M 1998.3,971.328 V 0.339844 h 1941.6 z"
+             style="fill:#273375;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path26" />
+          <path
+             d="M 998.563,971.328 V 0.339844 H -943.035 Z"
+             style="fill:#273375;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path28" />
+          <path
+             d="M 998.563,2029.01 V 3000 H -943.035 Z"
+             style="fill:#273375;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path30" />
+          <path
+             d="M 4496.86,3000 H 4163.78 L 2168,2000.14 h 333.08 L 4500,3000"
+             style="fill:#d11d2c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path32" />
+          <path
+             d="M 828.855,1000.25 H 495.777 L -1500,0.390625 h 333.08 L 831.996,1000.25"
+             style="fill:#d11d2c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path34" />
+          <path
+             d="M 165.344,1999.36 H 498.422 L -1499.99,3000 -1500,2832.3 165.344,1999.36"
+             style="fill:#d11d2c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path36" />
+          <path
+             d="M 2830.45,1000.64 H 2497.37 L 4495.79,0 4495.8,167.699 2830.45,1000.64"
+             style="fill:#d11d2c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path38" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
