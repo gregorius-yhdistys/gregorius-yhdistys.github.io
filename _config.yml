@@ -17,7 +17,6 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - assets/css/main-clean.css
-  - assets/css/main-compiled.css
   - yarn.lock
 
 languages: ['fi', 'en']

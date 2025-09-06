@@ -41,13 +41,19 @@ jobs:
       - name: Build CSS
         run: |
           npx tailwindcss -i ./assets/css/main-clean.css -o ./assets/css/main-compiled.css --minify
+          ls -la assets/css/
+          echo "CSS compilation completed"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Build with Jekyll
         run: |
+          echo "Checking CSS files before Jekyll build:"
+          ls -la assets/css/
           bundle exec jekyll build --destination ./_site
+          echo "Checking CSS files after Jekyll build:"
+          ls -la _site/assets/css/
         env:
           JEKYLL_ENV: production
 
