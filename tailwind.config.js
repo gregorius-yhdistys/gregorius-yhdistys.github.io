@@ -13,7 +13,7 @@ module.exports = {
     './programmes/**/*.md',
     './mass-locations/**/*.md',
     './mass-schedule/**/*.md',
-    './about/**/*.md',
+    './the-society/**/*.md',
   ],
   theme: {
     extend: {

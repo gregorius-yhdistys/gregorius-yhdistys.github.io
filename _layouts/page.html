@@ -21,7 +21,7 @@ layout: compress
   <body>
     {% include navigation.html %}
     {% if page.title != '404' %}
-    <div class="page container mx-auto mt-24 mb-8 p-4">
+    <div class="page container mx-auto mt-24 mb-8 p-4"{% if page.page_id %} data-page-id="{{ page.page_id }}"{% endif %}>
       {{ output }}
     </div>
     {% else %}
