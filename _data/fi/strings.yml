@@ -4,6 +4,8 @@
 # nav_liturgy_url: "liturgia"
 # nav_documents: "Asiakirjat"
 # nav_documents_url: "asiakirjat"
+nav_programmes: "Ohjelmat"
+nav_programmes_url: "ohjelmat"
 nav_mass_schedule: "Messuajat"
 nav_mass_schedule_url: "messuajat"
 nav_about: "Tietoa meistä"

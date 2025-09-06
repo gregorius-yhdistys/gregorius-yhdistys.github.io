@@ -4,6 +4,8 @@
 # nav_liturgy_url: "liturgy"
 # nav_documents: "Documents"
 # nav_documents_url: "documents"
+nav_programmes: "Programmes"
+nav_programmes_url: "programmes"
 nav_mass_schedule: "Mass schedule"
 nav_mass_schedule_url: "mass-schedule"
 nav_about: "About us"
