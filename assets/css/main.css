@@ -342,6 +342,9 @@ nav:not(.text-white) a {
 .slideshow-container {
   position: relative;
   overflow: hidden;
+  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
 }
 
 .slideshow-bg {
@@ -379,4 +382,19 @@ nav:not(.text-white) a {
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
   z-index: 2;
+}
+
+/* Ensure footer is visible above slideshow */
+footer {
+  z-index: 50 !important;
+  position: fixed !important;
+}
+
+/* Fix copyright symbol baseline alignment */
+footer .copyright-symbol {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  vertical-align: baseline;
+  font-size: inherit;
+  line-height: inherit;
+  display: inline;
 }
