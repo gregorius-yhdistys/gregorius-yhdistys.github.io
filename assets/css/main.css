@@ -87,7 +87,7 @@
   @apply text-base leading-7 hyphens-auto;
 
   h1 {
-    @apply text-4xl leading-10;
+    @apply text-4xl leading-10 text-brand font-bold;
   }
 
   h2 {
