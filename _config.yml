@@ -12,6 +12,10 @@ plugins:
   - jekyll-polyglot
   - jekyll-redirect-from
 
+compress_html:
+  ignore:
+    envs: [development, production]
+
 exclude:
   - package.json
   - postcss.config.js
