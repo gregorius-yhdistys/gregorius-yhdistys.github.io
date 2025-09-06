@@ -24,9 +24,6 @@ module.exports = {
       colors: {
         brand: '#024f94',
       },
-      backgroundImage: {
-        'home-main': `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/media/index-bg.jpg')`,
-      },
     },
   },
   plugins: [],
