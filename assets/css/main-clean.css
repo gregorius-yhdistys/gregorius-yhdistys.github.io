@@ -109,63 +109,61 @@
 
   p {
     @apply py-4;
+  }
 
-    .footnote {
-      @apply font-bold;
-    }
+  p .footnote {
+    @apply font-bold;
   }
 
   a {
     @apply text-brand hover:underline;
   }
 
-  ul {
-    li {
-      @apply list-disc;
-    }
+  ul li {
+    @apply list-disc;
   }
 
   ol {
     list-style: decimal;
-    li {
-      margin-left: 3em;
-      padding-left: 1em;
-    }
+  }
+
+  ol li {
+    margin-left: 3em;
+    padding-left: 1em;
   }
 }
 
-.document {
-  h2 {
-    @apply text-center;
-  }
+.document h2 {
+  @apply text-center;
+}
 
-  h3 {
-    @apply text-center;
-  }
+.document h3 {
+  @apply text-center;
+}
 
-  h4 {
-    @apply text-center;
-  }
+.document h4 {
+  @apply text-center;
+}
 
-  h5 {
-    @apply text-center;
-  }
+.document h5 {
+  @apply text-center;
+}
 
-  h6 {
-    @apply text-center;
-  }
+.document h6 {
+  @apply text-center;
+}
 
-  p {
-    @apply py-4 text-justify;
+.document p {
+  @apply py-4 text-justify;
+}
 
-    :first-child {
-      @apply first-letter:float-left first-letter:text-7xl first-letter:pr-4 first-letter:font-black first-letter:text-red-500;
-    }
+.document p .footnote {
+  @apply font-bold;
+}
 
-    .footnote {
-      @apply font-bold;
-    }
-  }
+/* Drop cap styling for first paragraph */
+.page p:first-child::first-letter {
+  @apply float-left text-7xl pr-4 font-black text-red-500;
 }
 
 /* Mobile Side Menu Styles */
