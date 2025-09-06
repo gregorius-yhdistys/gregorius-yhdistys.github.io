@@ -1,5 +1,9 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-<html>
+<html lang="{{ site.active_lang }}">
   {% include head.html %}
   <body>
     {% include navigation.html %}
@@ -12,11 +16,11 @@
         if (window.scrollY > 0) {
           document
             .querySelector('nav')
-            .classList.add('shadow-lg', '!text-black', 'bg-white');
+            .classList.add('shadow-lg', '!text-brand', 'bg-white');
         } else {
           document
             .querySelector('nav')
-            .classList.remove('shadow-lg', '!text-black', 'bg-white');
+            .classList.remove('shadow-lg', '!text-brand', 'bg-white');
         }
       });
     </script>

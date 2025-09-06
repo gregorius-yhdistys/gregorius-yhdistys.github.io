@@ -14,6 +14,10 @@ module.exports = {
     extend: {
       fontFamily: {
         reforma: ['Reforma2018Gris', 'sans-serif'],
+        system: ['system-ui', 'sans-serif'],
+      },
+      colors: {
+        brand: '#024f94',
       },
       backgroundImage: {
         'home-main': `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/media/index-bg.jpg')`,

@@ -9,6 +9,17 @@
 @layer base {
   /* === Setting up typefaces === */
 
+  /* Define the "system" font family */
+
+  @font-face {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 300;
+    src: local('.SFNSText-Light'), local('.HelveticaNeueDeskInterface-Light'),
+      local('.LucidaGrandeUI'), local('Ubuntu Light'), local('Segoe UI Light'),
+      local('Roboto-Light'), local('DroidSans'), local('Tahoma');
+  }
+
   /* Reforma 2018 Gris */
 
   @font-face {
@@ -46,21 +57,21 @@
     font-size: 16px;
     line-height: normal;
     /* Force normal lining numbers instead of old style */
-    font-feature-settings: "lnum";
+    font-feature-settings: 'lnum';
   }
 
   h1 {
     font-size: 32px;
     font-weight: 600;
     letter-spacing: 0.32px;
-    line-height: normal;
+    line-height: 40px;
   }
 
   h2 {
     font-size: 24px;
     font-weight: 600;
     letter-spacing: 0.24px;
-    line-height: normal;
+    line-height: 36px;
   }
 
   h3 {
@@ -68,6 +79,94 @@
     font-weight: 600;
     letter-spacing: 0.18px;
     text-transform: uppercase;
-    line-height: normal;
+    line-height: 36px;
+  }
+}
+
+.page {
+  @apply text-base leading-7 hyphens-auto;
+
+  h1 {
+    @apply text-4xl leading-10;
+  }
+
+  h2 {
+    @apply text-3xl leading-9;
+  }
+
+  h3 {
+    @apply text-2xl leading-9;
+  }
+
+  h4 {
+    @apply text-xl leading-9;
+  }
+
+  h5 {
+    @apply text-lg leading-9;
+  }
+
+  h6 {
+    @apply text-base leading-7;
+  }
+
+  p {
+    @apply py-4;
+
+    .footnote {
+      @apply font-bold;
+    }
+  }
+
+  a {
+    @apply text-brand hover:underline;
+  }
+
+  ul {
+    li {
+      @apply list-disc;
+    }
+  }
+
+  ol {
+    list-style: decimal;
+    li {
+      margin-left: 3em;
+      padding-left: 1em;
+    }
+  }
+}
+
+.document {
+  h2 {
+    @apply text-center;
+  }
+
+  h3 {
+    @apply text-center;
+  }
+
+  h4 {
+    @apply text-center;
+  }
+
+  h5 {
+    @apply text-center;
+  }
+
+  h6 {
+    @apply text-center;
+  }
+
+  p {
+    @apply py-4 text-justify;
+
+    :first-child {
+      @apply first-letter:float-left first-letter:text-7xl first-letter:pr-4 first-letter:font-black first-letter:text-red-500;
+    }
+
+    .footnote {
+      @apply font-bold;
+    }
   }
 }
