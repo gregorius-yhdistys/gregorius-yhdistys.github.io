@@ -9,6 +9,11 @@ module.exports = {
     './*.md',
     './*.html',
     './404.md',
+    './contact/**/*.md',
+    './programmes/**/*.md',
+    './mass-locations/**/*.md',
+    './mass-schedule/**/*.md',
+    './about/**/*.md',
   ],
   theme: {
     extend: {
