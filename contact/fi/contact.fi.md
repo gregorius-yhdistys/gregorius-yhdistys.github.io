@@ -12,7 +12,7 @@ page_id: contact
 
 Jos sinulla on kysymyksiä tai haluat ottaa meihin yhteyttä, käytä alla olevaa yhteydenottolomaketta.
 
-<form action="https://api.web3forms.com/submit" method="POST" class="max-w-md mx-auto">
+<form action="https://api.web3forms.com/submit" method="POST" class="max-w-md">
     <input type="hidden" name="access_key" value="c81d883d-8f6b-4db4-9b63-6269f0762368">
     
     <div class="mb-6">
