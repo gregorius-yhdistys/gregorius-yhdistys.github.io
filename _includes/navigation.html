@@ -96,7 +96,7 @@
     </a>
     {% endif %} {% endif %} {% endfor %}
   </div>
-  <button class="text-lg p-4 block lg:hidden cursor-pointer focus:outline-none bg-transparent border-none" id="mobile-menu-button" type="button" aria-label="Open mobile menu" onclick="console.log('Button clicked via onclick'); document.getElementById('mobile-side-menu').classList.toggle('show'); document.getElementById('mobile-menu-overlay').classList.toggle('show');">
+  <button class="text-lg p-4 block lg:hidden cursor-pointer focus:outline-none bg-transparent border-none" id="mobile-menu-button" type="button" aria-label="Open mobile menu" onclick="document.getElementById('mobile-side-menu').classList.toggle('show'); document.getElementById('mobile-menu-overlay').classList.toggle('show');">
     <i class="fa fa-bars text-2xl" aria-hidden="true"></i>
   </button>
 </nav>
@@ -106,7 +106,7 @@
   <div class="flex flex-col h-full">
     <!-- Close Button -->
     <div class="relative">
-      <button id="mobile-menu-close" class="absolute top-4 right-4 text-2xl text-gray-600 hover:text-brand focus:outline-none bg-transparent border-none z-10" aria-label="Close mobile menu" onclick="console.log('Close button clicked via onclick'); document.getElementById('mobile-side-menu').classList.remove('show'); document.getElementById('mobile-menu-overlay').classList.remove('show'); document.body.classList.remove('menu-open');">
+      <button id="mobile-menu-close" class="absolute top-4 right-4 text-2xl text-gray-600 hover:text-brand focus:outline-none bg-transparent border-none z-10" aria-label="Close mobile menu" onclick="document.getElementById('mobile-side-menu').classList.remove('show'); document.getElementById('mobile-menu-overlay').classList.remove('show'); document.body.classList.remove('menu-open');">
         <i class="fa fa-times" aria-hidden="true"></i>
       </button>
     </div>
@@ -180,46 +180,24 @@
 </div>
 
 <!-- Mobile Menu Overlay -->
-<div id="mobile-menu-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden lg:hidden" onclick="console.log('Overlay clicked via onclick'); document.getElementById('mobile-side-menu').classList.remove('show'); this.classList.remove('show'); document.body.classList.remove('menu-open');"></div>
+<div id="mobile-menu-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden lg:hidden" onclick="document.getElementById('mobile-side-menu').classList.remove('show'); this.classList.remove('show'); document.body.classList.remove('menu-open');"></div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('Mobile menu script loaded');
-  
   const mobileMenuButton = document.getElementById('mobile-menu-button');
   const mobileSideMenu = document.getElementById('mobile-side-menu');
   const mobileMenuClose = document.getElementById('mobile-menu-close');
   const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
   const body = document.body;
 
-  console.log('Elements found:', {
-    button: mobileMenuButton,
-    menu: mobileSideMenu,
-    close: mobileMenuClose,
-    overlay: mobileMenuOverlay
-  });
-
-  // Debug close button specifically
-  if (mobileMenuClose) {
-    console.log('Close button found:', mobileMenuClose);
-  } else {
-    console.error('Close button not found!');
-  }
-
   function openMobileMenu() {
-    console.log('Opening mobile menu');
     mobileSideMenu.classList.add('show');
     mobileMenuOverlay.classList.add('show');
     mobileMenuButton.classList.add('open');
     body.classList.add('menu-open');
-    
-    // Debug overlay visibility
-    console.log('Overlay classes after opening:', mobileMenuOverlay.className);
-    console.log('Overlay display style:', window.getComputedStyle(mobileMenuOverlay).display);
   }
 
   function closeMobileMenu() {
-    console.log('Closing mobile menu');
     mobileSideMenu.classList.remove('show');
     mobileMenuOverlay.classList.remove('show');
     mobileMenuButton.classList.remove('open');
@@ -229,7 +207,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Open menu when button is clicked
   if (mobileMenuButton) {
     mobileMenuButton.addEventListener('click', function(e) {
-      console.log('Button clicked');
       e.preventDefault();
       e.stopPropagation();
       
@@ -241,14 +218,11 @@ document.addEventListener('DOMContentLoaded', function() {
       
       openMobileMenu();
     });
-  } else {
-    console.error('Mobile menu button not found');
   }
 
   // Close menu when close button is clicked
   if (mobileMenuClose) {
     mobileMenuClose.addEventListener('click', function(e) {
-      console.log('Close button clicked via event listener');
       e.preventDefault();
       e.stopPropagation();
       
@@ -260,21 +234,15 @@ document.addEventListener('DOMContentLoaded', function() {
       
       closeMobileMenu();
     });
-  } else {
-    console.error('Close button not found for event listener');
   }
 
   // Close menu when overlay is clicked
   if (mobileMenuOverlay) {
-    console.log('Overlay found, adding click listener');
     mobileMenuOverlay.addEventListener('click', function(e) {
-      console.log('Overlay clicked');
       e.preventDefault();
       e.stopPropagation();
       closeMobileMenu();
     });
-  } else {
-    console.error('Overlay not found!');
   }
 
   // Close menu when escape key is pressed
