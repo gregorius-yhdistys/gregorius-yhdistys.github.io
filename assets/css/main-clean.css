@@ -161,10 +161,6 @@
   @apply font-bold;
 }
 
-/* Drop cap styling for first paragraph */
-.page p:first-child::first-letter {
-  @apply float-left text-7xl pr-4 font-black text-red-500;
-}
 
 /* Mobile Side Menu Styles */
 #mobile-side-menu {
