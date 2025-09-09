@@ -1,16 +1,17 @@
 ---
-title: Programmes
+title: Ohjelma
 layout: page
-permalink: /programmes
-lang: en
-page_id: programmes
+permalink: /ohjelma
+lang: fi
+page_id: programme
 ---
 
-# Programmes
+# Ohjelma
 
 ---
 
-Here you can find information about the upcoming Traditional Latin Mass and other programmes organised by the Society of St. Gregory the Great.
+Täältä löydätte tietoa perinteisen latinankielisen messun ajankohdista ja muusta Gregorius-
+yhdistyksen järjestämästä ohjelmasta.
 
 <div class="relative max-w-4xl mx-auto" style="margin: 20px 0;">
     <div class="relative w-full h-0 calendar-container" style="padding-bottom: 75%;">

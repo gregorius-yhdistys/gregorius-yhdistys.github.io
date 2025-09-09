@@ -1,9 +1,9 @@
 ---
-title: Yhdistys
+title: Tietoa meistä
 layout: page
-permalink: /yhdistys
+permalink: /tietoa-meista
 lang: fi
-page_id: the-society
+page_id: about-us
 ---
 
 # Gregorius-yhdistys

@@ -1,12 +1,12 @@
 ---
-title: Mass Locations
+title: Mass Location
 layout: page
-permalink: /mass-locations
+permalink: /mass-location
 lang: en
-page_id: mass-locations
+page_id: mass-location
 ---
 
-# Mass Locations
+# Mass Location
 
 ---
 
@@ -39,6 +39,6 @@ page_id: mass-locations
 </style>
 
 **Address:** Mäntytie 2, 00270 Helsinki\
-**Date:** First Sundays of the month\
-**Time:** 12:45\
-**<span style="color: #dc2626;">NOTE!</span>** The schedule is subject to change all the times. Please check our [Programmes](/programmes) page for the latest updates of Mass schedule.
+**Date:** First Sunday of the month\
+**Time:** 12:45 PM\
+**<span style="color: #dc2626;">NOTE!</span>** The schedule is subject to change. Please check the Mass times from the [Programme](/programme) page.

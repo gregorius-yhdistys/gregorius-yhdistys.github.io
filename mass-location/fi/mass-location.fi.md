@@ -1,9 +1,9 @@
 ---
-title: Messun paikat
+title: Messun sijainti
 layout: page
-permalink: /messun-paikat
+permalink: /messun-sijainti
 lang: fi
-page_id: mass-locations
+page_id: mass-location
 ---
 
 # Messun paikat
@@ -39,6 +39,6 @@ page_id: mass-locations
 </style>
 
 **Osoite:** Mäntytie 2, 00270 Helsinki\
-**Päivämäärä:** Kuukauden ensimmäisinä sunnuntaisin\
+**Päivämäärä:** kuukauden ensimmäinen sunnuntai\
 **Aika:** klo 12.45\
-**<span style="color: #dc2626;">HUOM!</span>** Aikataulu voi muuttua koko ajan. Tarkista [Ohjelmat](/ohjelmat)-sivultamme viimeisimmät päivitykset messuajoista.
+**<span style="color: #dc2626;">HUOM!</span>** Aikataulu on altis muutoksille. Tarkat messuajat voi tarkistaa [Ohjelma](/ohjelma)-sivulta.

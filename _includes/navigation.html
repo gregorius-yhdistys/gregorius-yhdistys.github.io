@@ -36,13 +36,13 @@
       href="/{{ site.data.strings.nav_documents_url }}"
       >{{ site.data.strings.nav_documents }}</a
     > -->
-    {% if page.url contains site.data.strings.nav_programmes_url %}
-    <span class="mx-3 font-semibold text-brand relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-brand">{{ site.data.strings.nav_programmes }}</span>
+    {% if page.url contains site.data.strings.nav_programme_url %}
+    <span class="mx-3 font-semibold text-brand relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-brand">{{ site.data.strings.nav_programme }}</span>
     {% else %}
     <a
       class="mx-3 hover:relative hover:after:content-[''] hover:after:absolute hover:after:bottom-0 hover:after:left-0 hover:after:w-full hover:after:h-0.5 hover:after:bg-brand"
-      href="/{{ site.data.strings.nav_programmes_url }}"
-      >{{ site.data.strings.nav_programmes }}</a
+      href="/{{ site.data.strings.nav_programme_url }}"
+      >{{ site.data.strings.nav_programme }}</a
     >
     {% endif %}
     {% if page.url contains site.data.strings.nav_mass_location_url %}
@@ -114,13 +114,13 @@
     <!-- Menu Items -->
     <div class="flex-1 px-6 py-4">
       <nav class="space-y-4">
-        {% if page.url contains site.data.strings.nav_programmes_url %}
-        <span class="block py-3 text-lg font-semibold text-brand border-l-4 border-brand pl-3">{{ site.data.strings.nav_programmes }}</span>
+        {% if page.url contains site.data.strings.nav_programme_url %}
+        <span class="block py-3 text-lg font-semibold text-brand border-l-4 border-brand pl-3">{{ site.data.strings.nav_programme }}</span>
         {% else %}
         <a
           class="block py-3 text-lg text-gray-700 hover:text-brand hover:border-l-4 hover:border-brand hover:pl-3"
-          href="/{{ site.data.strings.nav_programmes_url }}"
-          >{{ site.data.strings.nav_programmes }}</a
+          href="/{{ site.data.strings.nav_programme_url }}"
+          >{{ site.data.strings.nav_programme }}</a
         >
         {% endif %}
         {% if page.url contains site.data.strings.nav_mass_location_url %}
