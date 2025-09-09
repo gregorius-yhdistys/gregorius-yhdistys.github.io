@@ -21,19 +21,17 @@ permalink: /en/
     <div class="max-w-4xl mx-auto">
       <div class="bg-black bg-opacity-30 backdrop-blur-sm rounded-lg p-6 mb-6">
         <p class="text-lg md:text-xl leading-relaxed mb-4">
-          Dedicated to preserving and promoting the rich liturgical tradition of the Catholic Church,
-          we celebrate the Traditional Latin Mass and Gregorian chant as integral parts of our faith.
+          Dedicated to preserving and promoting the rich liturgical tradition of the Catholic Church, the Society of St. Gregory the Great organises the Traditional Latin Mass, as well as other spiritual activities in Finland.
         </p>
         <p class="text-base md:text-lg leading-relaxed">
-          Join us in experiencing the beauty and reverence of the Extraordinary Form of the Roman Rite,
-          fostering a deeper connection with centuries of Catholic tradition and spirituality.
+          Welcome to experience the beauty of the Catholic tradition and spirituality through the Extraordinary Form of the Roman Rite.
         </p>
       </div>
 
       <div class="flex flex-col gap-3 justify-center items-center">
-        <a href="/programmes" class="bg-brand hover:bg-brand/90 text-white px-8 py-3 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-2 w-full max-w-md justify-center">
+        <a href="/programme" class="bg-brand hover:bg-brand/90 text-white px-8 py-3 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-2 w-full max-w-md justify-center">
           <i class="fas fa-calendar-alt"></i>
-          View Programmes
+          Our Programme
         </a>
         
         <div class="flex gap-3 w-full max-w-md">

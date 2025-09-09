@@ -1,9 +1,9 @@
 ---
-title: About the Society
+title: About Us
 layout: page
-permalink: /about-the-society
+permalink: /about-us
 lang: en
-page_id: the-society
+page_id: about-us
 ---
 
 # Society of St. Gregory the Great

@@ -1,16 +1,17 @@
 ---
-title: Ohjelmat
+title: Programme
 layout: page
-permalink: /ohjelmat
-lang: fi
-page_id: programmes
+permalink: /programme
+lang: en
+page_id: programme
 ---
 
-# Ohjelmat
+# Programme
 
 ---
 
-Täältä löydät tietoa tulevista perinteisistä latinalaisista messuista ja muista Gregorius-yhdistyksen järjestämistä ohjelmista.
+Here you can find information about the upcoming Traditional Latin Mass times and our
+other activities.
 
 <div class="relative max-w-4xl mx-auto" style="margin: 20px 0;">
     <div class="relative w-full h-0 calendar-container" style="padding-bottom: 75%;">

@@ -21,19 +21,19 @@ permalink: /
     <div class="max-w-4xl mx-auto">
       <div class="bg-black bg-opacity-30 backdrop-blur-sm rounded-lg p-6 mb-6">
         <p class="text-lg md:text-xl leading-relaxed mb-4">
-          Omistautumme katolisen kirkon rikkaan liturgisen perinteen vaalimiseen ja edistämiseen.
-          Juhlimme perinteistä latinalaista messua ja gregoriaanista kirkkomusiikkia uskomme olennaisina osina.
+          Gregorius-yhdistys on katolisen kirkon rikkaan liturgisen perinteen vaalimiseen ja
+          edistämiseen omistautunut ryhmä. Järjestämme perinteisen latinankielisen messun ja muuta hengellistä ohjelmaa Suomessa.
         </p>
         <p class="text-base md:text-lg leading-relaxed">
-          Liity mukaan kokeilemaan roomalaisen riituksen erityismuodon kauneutta ja kunnioitusta,
-          vahvistaen yhteyttä vuosisatojen katoliseen perinteeseen ja hengellisyyteen.
+          Tervetuloa kokemaan vuosisatojen katolisen perinteen ja hengellisyyden kauneutta
+          roomalaisen riituksen vanhemman muodon kautta .
         </p>
       </div>
 
       <div class="flex flex-col gap-3 justify-center items-center">
-        <a href="/ohjelmat" class="bg-brand hover:bg-brand/90 text-white px-8 py-3 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-2 w-full max-w-md justify-center">
+        <a href="/ohjelma" class="bg-brand hover:bg-brand/90 text-white px-8 py-3 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-2 w-full max-w-md justify-center">
           <i class="fas fa-calendar-alt"></i>
-          Ohjelmat
+          Ohjelmamme
         </a>
         
         <div class="flex gap-3 w-full max-w-md">

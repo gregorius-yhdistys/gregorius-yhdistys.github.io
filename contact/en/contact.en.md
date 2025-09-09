@@ -1,7 +1,7 @@
 ---
 title: Contact Us
 layout: page
-permalink: /contact
+permalink: /contact-us
 lang: en
 page_id: contact
 ---

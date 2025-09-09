@@ -10,10 +10,12 @@ module.exports = {
     './*.html',
     './404.md',
     './contact/**/*.md',
-    './programmes/**/*.md',
-    './mass-locations/**/*.md',
+    './programme/**/*.md',
+    './mass-location/**/*.md',
+    './about/**/*.md',
+    './documents/**/*.md',
+    './en/**/*.md',
     './mass-schedule/**/*.md',
-    './the-society/**/*.md',
   ],
   theme: {
     extend: {
