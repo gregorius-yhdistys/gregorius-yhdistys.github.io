@@ -3,12 +3,11 @@
   <meta charset="utf-8" />
   <!-- Primary Meta Tags -->
   <title>
-    {% if page.title == '' %}{{ site.title[site.active_lang] }}{% else %}{{
-    page.title }} | {{ site.title[site.active_lang] }}{% endif %}
+    {% if page.title == '' or page.url == '/' or page.url == '/en/' %}{{ site.title[site.active_lang] }}{% else %}{{ page.title }} | {{ site.title[site.active_lang] }}{% endif %}
   </title>
   <meta
     name="title"
-    content="{% if page.title == '' %}{{ site.title[site.active_lang] }}{% else %}{{ page.title }} | {{ site.title[site.active_lang] }}{% endif %}"
+    content="{% if page.title == '' or page.url == '/' or page.url == '/en/' %}{{ site.title[site.active_lang] }}{% else %}{{ page.title }} | {{ site.title[site.active_lang] }}{% endif %}"
   />
   <meta
     name="description"
@@ -20,7 +19,7 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   <meta
     property="og:title"
-    content="{% if page.title == '404' %}{{ site.title[site.active_lang] }}{% else %}{{ page.title }} | {{ site.title[site.active_lang] }}{% endif %}"
+    content="{% if page.title == '404' or page.title == '' or page.url == '/' or page.url == '/en/' %}{{ site.title[site.active_lang] }}{% else %}{{ page.title }} | {{ site.title[site.active_lang] }}{% endif %}"
   />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description[site.active_lang] }}{% endif %}" />
   <meta property="og:image" content="assets/images/logo/SSGM_meta.jpg" />
@@ -29,7 +28,7 @@
   <meta property="twitter:url" content="{{ site.url }}{{ page.url }}" />
   <meta
     property="twitter:title"
-    content="{% if page.title == '' %}{{ site.title[site.active_lang] }}{% else %}{{ page.title }} | {{ site.title[site.active_lang] }}{% endif %}"
+    content="{% if page.title == '' or page.url == '/' or page.url == '/en/' %}{{ site.title[site.active_lang] }}{% else %}{{ page.title }} | {{ site.title[site.active_lang] }}{% endif %}"
   />
   <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description[site.active_lang] }}{% endif %}" />
   <meta property="twitter:image" content="assets/images/logo/SSGM_meta.jpg" />
