@@ -4,14 +4,14 @@ layout: page
 permalink: /ohjelma
 lang: fi
 page_id: programme
+description: "Perinteisen latinankielisen messun ajankohdista ja muusta Gregorius-yhdistyksen järjestämästä ohjelmasta."
 ---
 
 # Ohjelma
 
 ---
 
-Täältä löydätte tietoa perinteisen latinankielisen messun ajankohdista ja muusta Gregorius-
-yhdistyksen järjestämästä ohjelmasta.
+Täältä löydätte tietoa perinteisen latinankielisen messun ajankohdista ja muusta Gregorius-yhdistyksen järjestämästä ohjelmasta.
 
 <div class="relative max-w-4xl mx-auto" style="margin: 20px 0;">
     <div class="relative w-full h-0 calendar-container" style="padding-bottom: 75%;">

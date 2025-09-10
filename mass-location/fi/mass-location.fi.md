@@ -4,9 +4,10 @@ layout: page
 permalink: /messun-sijainti
 lang: fi
 page_id: mass-location
+description: "Perinteisen latinankielisen messun sijainti Suomessa."
 ---
 
-# Messun paikat
+# Messun sijainti
 
 ---
 
