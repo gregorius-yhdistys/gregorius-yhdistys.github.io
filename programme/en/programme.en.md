@@ -4,14 +4,14 @@ layout: page
 permalink: /programme
 lang: en
 page_id: programme
+description: "Schedules for Traditional Latin Mass and other activities organised by the Society of St. Gregory the Great"
 ---
 
 # Programme
 
 ---
 
-Here you can find information about the upcoming Traditional Latin Mass times and our
-other activities.
+Here you can find information about the upcoming schedules for Traditional Latin Mass and our other activities.
 
 <div class="relative max-w-4xl mx-auto" style="margin: 20px 0;">
     <div class="relative w-full h-0 calendar-container" style="padding-bottom: 75%;">

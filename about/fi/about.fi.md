@@ -4,6 +4,7 @@ layout: page
 permalink: /tietoa-meista
 lang: fi
 page_id: about-us
+description: "Gregorius-yhdistys (Societas Sancti Gregorii Magni) on Helsingin katolisessa hiippakunnassa toimiva yhdistys, joka vaalii katolisen kirkon rikasta liturgista perinnettä ja edistää perinteisen latinankielisen messun käyttöä Suomessa."
 ---
 
 # Gregorius-yhdistys

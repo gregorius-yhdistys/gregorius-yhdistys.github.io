@@ -4,6 +4,7 @@ layout: page
 permalink: /mass-location
 lang: en
 page_id: mass-location
+description: "Traditional Latin Mass location in Finland."
 ---
 
 # Mass Location

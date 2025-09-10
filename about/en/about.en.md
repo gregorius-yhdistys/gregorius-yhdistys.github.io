@@ -4,6 +4,7 @@ layout: page
 permalink: /about-us
 lang: en
 page_id: about-us
+description: "The Society of St. Gregory the Great (Societas Sancti Gregorii Magni) is an association in the Catholic Diocese of Helsinki that cherishes the rich liturgical tradition of the Catholic Church and promotes the use of the Traditional Latin Mass in Finland."
 ---
 
 # Society of St. Gregory the Great

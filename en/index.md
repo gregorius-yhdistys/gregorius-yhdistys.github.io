@@ -21,7 +21,7 @@ permalink: /en/
     <div class="max-w-4xl mx-auto">
       <div class="bg-black bg-opacity-30 backdrop-blur-sm rounded-lg p-6 mb-6">
         <p class="text-lg md:text-xl leading-relaxed mb-4">
-          Dedicated to preserving and promoting the rich liturgical tradition of the Catholic Church, the Society of St. Gregory the Great organises the Traditional Latin Mass, as well as other spiritual activities in Finland.
+          The Society of St. Gregory the Great Dedicated to preserving and promoting the rich liturgical tradition of the Catholic Church by organising the Traditional Latin Mass, as well as other spiritual activities in Finland.
         </p>
         <p class="text-base md:text-lg leading-relaxed">
           Welcome to experience the beauty of the Catholic tradition and spirituality through the Extraordinary Form of the Roman Rite.
