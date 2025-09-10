@@ -6,7 +6,7 @@ url: https://gregorius.fi
 baseurl: ''
 description:
   fi: Gregorius-yhdistys (Societas Sancti Gregorii Magni) on Helsingin katolisessa hiippakunnassa vuonna 2007 toimintansa aloittanut yhdistys, jonka tarkoituksena on ”vaalia katolisen Kirkon rikasta liturgista perinnettä ja edistää sen käyttöä Kirkon sakramentaalisessa elämässä sekä osana suomalaista kansanhurskautta”.
-  en:  Gregorius-yhdistys (Societas Sancti Gregorii Magni) is an association that started operating in the Catholic Diocese of Helsinki in 2007, the purpose of which is to "cherish the rich liturgical tradition of the Catholic Church and promote its use in the sacramental life of the Church and as part of Finnish folk piety".
+  en: The Society of St. Gregory the Great (Societas Sancti Gregorii Magni) is an association that started operating in the Catholic Diocese of Helsinki in 2007, the purpose of which is to "cherish the rich liturgical tradition of the Catholic Church and promote its use in the sacramental life of the Church and as part of Finnish folk piety".
 
 plugins:
   - jekyll-polyglot
