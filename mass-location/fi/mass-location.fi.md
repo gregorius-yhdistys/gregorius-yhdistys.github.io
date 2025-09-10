@@ -6,7 +6,7 @@ lang: fi
 page_id: mass-location
 ---
 
-# Messun paikat
+# Messun sijainti
 
 ---
 

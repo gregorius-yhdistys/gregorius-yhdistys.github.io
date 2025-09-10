@@ -26,7 +26,7 @@ permalink: /
         </p>
         <p class="text-base md:text-lg leading-relaxed">
           Tervetuloa kokemaan vuosisatojen katolisen perinteen ja hengellisyyden kauneutta
-          roomalaisen riituksen vanhemman muodon kautta .
+          roomalaisen riituksen vanhemman muodon kautta.
         </p>
       </div>
 
