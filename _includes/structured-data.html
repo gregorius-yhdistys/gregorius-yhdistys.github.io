@@ -1,0 +1,61 @@
+{% if page.url == '/' or page.url == '/en/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ site.title[site.active_lang] }}",
+  "alternateName": "Societas Sancti Gregorii Magni",
+  "url": "{{ site.url }}{{ page.url }}",
+  "logo": "{{ site.url }}/assets/images/logo/SSGM_meta.jpg",
+  "description": "{{ site.description[site.active_lang] }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Helsinki",
+    "addressCountry": "FI"
+  },
+  "sameAs": [
+    "https://www.facebook.com/gregoriusyhdistys",
+    "https://www.youtube.com/@ssgm"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title[site.active_lang] }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "description": "{{ site.description[site.active_lang] }}",
+  "inLanguage": "{{ site.active_lang }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ site.url }}/?s={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ReligiousOrganization",
+  "name": "{{ site.title[site.active_lang] }}",
+  "alternateName": "Societas Sancti Gregorii Magni",
+  "url": "{{ site.url }}{{ page.url }}",
+  "description": "{{ site.description[site.active_lang] }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Helsinki",
+    "addressCountry": "FI"
+  },
+  "religion": "Catholic",
+  "areaServed": {
+    "@type": "Country",
+    "name": "Finland"
+  }
+}
+</script>
+{% endif %}
+
