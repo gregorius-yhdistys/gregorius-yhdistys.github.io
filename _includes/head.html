@@ -2,9 +2,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="utf-8" />
   <!-- Primary Meta Tags -->
-  <title>
-    {% if page.title == '' or page.url == '/' or page.url == '/en/' %}{{ site.title[site.active_lang] }}{% else %}{{ page.title }} | {{ site.title[site.active_lang] }}{% endif %}
-  </title>
+  <title>{% if page.title == '' or page.url == '/' or page.url == '/en/' %}{{ site.title[site.active_lang] }}{% else %}{{ page.title }} | {{ site.title[site.active_lang] }}{% endif %}</title>
   <meta
     name="title"
     content="{% if page.title == '' or page.url == '/' or page.url == '/en/' %}{{ site.title[site.active_lang] }}{% else %}{{ page.title }} | {{ site.title[site.active_lang] }}{% endif %}"
@@ -16,6 +14,7 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:site_name" content="{{ site.title[site.active_lang] }}" />
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   <meta
     property="og:title"
