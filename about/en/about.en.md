@@ -14,6 +14,8 @@ description: "The Society of St. Gregory the Great (Societas Sancti Gregorii Mag
 
 In accordance with the Statutes of the Society, the activities follow full obedience to the teaching authority of the Catholic Church and the ordinary of the Diocese of Helsinki. **Father Anders Hamberg**, appointed by the bishop, serves as the moderator of the Society.
 
+Follow us: [Facebook](https://www.facebook.com/gregoriusyhdistys) and [YouTube](https://www.youtube.com/@ssgm).
+
 ---
 
 ## Statutes of the Society

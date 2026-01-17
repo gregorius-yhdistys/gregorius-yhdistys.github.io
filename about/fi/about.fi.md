@@ -14,6 +14,8 @@ description: "Gregorius-yhdistys (Societas Sancti Gregorii Magni) on Helsingin k
 
 Yhdistyksen sääntöjen mukaisesti toiminnassa noudatetaan täyttä kuuliaisuutta katolisen Kirkon opetusvirkaa ja Helsingin hiippakunnan ordinariusta kohtaan. Yhdistyksen moderaattorina toimii piispan nimittämä **isä Anders Hamberg**.
 
+Seuraa meitä: [Facebook](https://www.facebook.com/gregoriusyhdistys) ja [YouTube](https://www.youtube.com/@ssgm).
+
 ---
 
 ## Yhdistyksen säännöt
@@ -61,3 +63,5 @@ Toiminnassaan yhdistys tukeutuu erityisesti pyhän Gregorius Suuren puoltorukouk
 
 ### Yhdistyksen moderaattori
 Yhdistyksen toimintaa ohjaa Helsingin hiippakunnan ordinariuksen nimittämä moderaattori.
+
+
