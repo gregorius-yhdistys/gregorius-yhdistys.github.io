@@ -16,6 +16,7 @@ module.exports = {
     './documents/**/*.md',
     './en/**/*.md',
     './mass-schedule/**/*.md',
+    './chartres/**/*.md',
   ],
   theme: {
     extend: {

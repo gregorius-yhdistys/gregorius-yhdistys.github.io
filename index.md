@@ -19,7 +19,7 @@ permalink: /
   
   <div class="container mx-auto px-6 sm:px-12 text-white relative z-10 h-full flex flex-col justify-center">
     <div class="max-w-4xl">
-       <div class="bg-opacity-60 backdrop-blur-sm rounded-xl md:rounded-2xl p-8 md:p-10 mb-6 shadow-2xl text-center !max-w-[23rem]">
+       <div class="bg-opacity-60 backdrop-blur-sm rounded-xl md:rounded-2xl p-8 md:p-10 mb-6 shadow-2xl text-center">
         <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 drop-shadow-lg tracking-wide">Chartres 2026</h1>
         <div class="text-xl md:text-2xl font-light tracking-wider uppercase drop-shadow-md">
           <p>Pyhiinvaellus <br/> Pariisista - Chartresiin</p>
